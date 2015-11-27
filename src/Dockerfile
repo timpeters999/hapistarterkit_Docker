@@ -17,8 +17,5 @@ RUN sudo mkdir -p /opt/app
 WORKDIR /opt/app
 ADD . /opt/app
 
-# change back to original working directory
-WORKDIR /opt/app
-
 EXPOSE 1200
 CMD ["node", "app.js"]
