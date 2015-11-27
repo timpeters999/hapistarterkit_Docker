@@ -1,5 +1,3 @@
-var Handlers = require('./Handlers');
-
 var Routes = [
 	{
 		path: '/{path*}',
