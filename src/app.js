@@ -13,7 +13,8 @@ server.connection({ port: 1200 });
 //i'm just used to using vision:  https://www.npmjs.com/package/vision
 server.register(require('vision'), function (err) {
     if (err) {
-        console.log("Failed to load vision2.");
+		console.log("Failed to load vision2.");
+		console.log("test")
     }
 	
 	server.views({
