@@ -16,6 +16,8 @@ server.register(require('vision'), function (err) {
 		console.log("Failed to load vision2.");
 		console.log("test");
 		console.log("test2");
+		const tim = 4;
+		tim = 5;
     }
 	
 	server.views({
