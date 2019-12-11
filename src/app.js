@@ -14,7 +14,8 @@ server.connection({ port: 1200 });
 server.register(require('vision'), function (err) {
     if (err) {
 		console.log("Failed to load vision2.");
-		console.log("test")
+		console.log("test");
+		console.log("test2");
     }
 	
 	server.views({
